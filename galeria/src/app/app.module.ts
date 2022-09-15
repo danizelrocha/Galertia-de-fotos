@@ -7,6 +7,7 @@ import { CyberPunkComponent } from './pages/cyber-punk/cyber-punk.component';
 import { CyberpunkComponent } from './pages/cyberpunk/cyberpunk.component';
 import { AkiraComponent } from './pages/akira/akira.component';
 import { JunjiitoComponent } from './pages/junjiito/junjiito.component';
+import { StarwrasComponent } from './pages/starwras/starwras.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { JunjiitoComponent } from './pages/junjiito/junjiito.component';
     CyberPunkComponent,
     CyberpunkComponent,
     AkiraComponent,
-    JunjiitoComponent
+    JunjiitoComponent,
+    StarwrasComponent
   ],
   imports: [
     BrowserModule,
