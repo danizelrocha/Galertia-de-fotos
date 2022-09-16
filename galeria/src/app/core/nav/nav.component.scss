@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+}
+
+
+.logo{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-left: 15px;
+
+}
+
+a{
+    color: #FCFCFE;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.5;
+    background-color: #845151;
+    margin-bottom: auto;
+    border-radius: 4px; 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    background: #4E0000;
+    height: 8vh;
+    position: fixed;
+    width: 100vw;
+    top:0;
+    left: 0;  
+}
+
+.nav-list{
+   display: flex;
+   list-style: none;
+   padding: 0;
+}
+
+.nav-list li{
+   letter-spacing: 2px;
+   margin-left: 47px; 
+}
