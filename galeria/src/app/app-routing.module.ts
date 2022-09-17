@@ -32,6 +32,11 @@ const routes: Routes = [
      import ('./pages/junjiito/junjiito.module').then(m=>m.JunjiitoModule)
   },
   {
+    path:'sandman',
+    loadChildren:() =>
+     import ('./pages/sandman/sandman.module').then(m=>m.SandmanModule)
+  },
+  {
     path:'starwras',
     loadChildren:() =>
      import ('./pages/starwras/starwras.module').then(m=>m.StarwrasModule)
